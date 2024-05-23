@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        down: {
+          '0%': {transform: 'translateY(0px)'},
+          '100%': {transform: 'translateY(200%)'},
+        }
+      }
     },
   },
   plugins: [],
